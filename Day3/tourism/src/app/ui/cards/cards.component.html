@@ -1,0 +1,16 @@
+<div class="container m-2">
+  <div class="card" style="width: 18rem; height: 20 rem; overflow: hidden;">
+      <img src={{data.image}} class="card-img-top" alt="..." style="height: 10rem; object-fit: cover;">
+      <div class="card-body">
+          <h5 class="card-title">{{data.state}}</h5>
+          <p class="card-text">{{data.description.slice(0, 100)}}...</p>
+          <!-- Add a button or link for navigation -->
+          <a 
+            routerLink="/states/{{data.id}}" 
+            class="btn bg-black text-white" 
+            routerLinkActive="active">
+            Learn More
+          </a>
+      </div>
+  </div>
+</div>

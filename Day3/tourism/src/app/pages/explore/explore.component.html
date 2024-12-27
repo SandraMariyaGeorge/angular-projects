@@ -1,0 +1,10 @@
+<h1 class="text-center p-3">INDIAN STATES</h1>
+<div class="container d-flex">
+  <div class="row">
+    @for(item of api.getStates() ; track item.id){
+      <div class="col">
+        <app-cards [data]="item"></app-cards>
+      </div>
+    }
+  </div>
+</div>

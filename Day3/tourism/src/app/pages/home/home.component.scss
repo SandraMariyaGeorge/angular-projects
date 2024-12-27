@@ -1,0 +1,10 @@
+body, html {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+     /* Ensure the body and html take up the full height */
+  }
+.custom-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
